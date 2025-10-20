@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// ⚙️ Corrige o erro do ecrã branco no GitHub Pages
+// ✅ Corrigido para GitHub Pages (evita o ecrã branco)
 export default defineConfig({
   plugins: [react()],
-  base: '/Net_Pro_2/', // 👈 Nome do teu repositório no GitHub
-})
+  base: '/Net_Pro_2/', // <-- muda aqui se o teu repositório tiver outro nome
+});
